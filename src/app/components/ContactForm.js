@@ -114,7 +114,7 @@ function ContactForm() {
 
       <div className={styles.input_field}>
         <label htmlFor="message" className={styles.label}>
-          Enter your message
+          Enter your message...
           <textarea
             name="message"
             id="message"
