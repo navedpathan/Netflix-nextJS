@@ -32,8 +32,7 @@ function ContactForm() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await fetch("https://netflix-clone-umber-sigma.vercel.app/api/contact", {
-      // const res = await fetch("https://netflix-clone-umber-sigma.vercel.app/contact", {
+      const res = await fetch("https://next-js-ott.vercel.app/api/contact", {
         method: "POST",
         headers: { Content_Type: "application/json" },
         body: JSON.stringify({
